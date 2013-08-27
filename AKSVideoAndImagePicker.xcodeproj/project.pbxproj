@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C65FBD117CC765D002A2E65 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C65FBD017CC765D002A2E65 /* UIKit.framework */; };
+		5C65FBD317CC765D002A2E65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C65FBD217CC765D002A2E65 /* Foundation.framework */; };
+		5C65FBD517CC765D002A2E65 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C65FBD417CC765D002A2E65 /* CoreGraphics.framework */; };
+		5C65FBDB17CC765D002A2E65 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5C65FBD917CC765D002A2E65 /* InfoPlist.strings */; };
+		5C65FBDD17CC765D002A2E65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C65FBDC17CC765D002A2E65 /* main.m */; };
+		5C65FBE117CC765D002A2E65 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C65FBE017CC765D002A2E65 /* AppDelegate.m */; };
+		5C65FBE317CC765D002A2E65 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C65FBE217CC765D002A2E65 /* Default.png */; };
+		5C65FBE517CC765D002A2E65 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C65FBE417CC765D002A2E65 /* Default@2x.png */; };
+		5C65FBE717CC765D002A2E65 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C65FBE617CC765D002A2E65 /* Default-568h@2x.png */; };
+		5C65FBEE17CC766C002A2E65 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C65FBED17CC766C002A2E65 /* AVFoundation.framework */; };
+		5C65FBF317CC768E002A2E65 /* AKSVideoAndImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C65FBF017CC768E002A2E65 /* AKSVideoAndImagePicker.m */; };
+		5C65FBF417CC768E002A2E65 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C65FBF217CC768E002A2E65 /* TestViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5C65FBCD17CC765D002A2E65 /* AKSVideoAndImagePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AKSVideoAndImagePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C65FBD017CC765D002A2E65 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5C65FBD217CC765D002A2E65 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5C65FBD417CC765D002A2E65 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5C65FBD817CC765D002A2E65 /* AKSVideoAndImagePicker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AKSVideoAndImagePicker-Info.plist"; sourceTree = "<group>"; };
+		5C65FBDA17CC765D002A2E65 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5C65FBDC17CC765D002A2E65 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5C65FBDE17CC765D002A2E65 /* AKSVideoAndImagePicker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AKSVideoAndImagePicker-Prefix.pch"; sourceTree = "<group>"; };
+		5C65FBDF17CC765D002A2E65 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5C65FBE017CC765D002A2E65 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5C65FBE217CC765D002A2E65 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5C65FBE417CC765D002A2E65 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5C65FBE617CC765D002A2E65 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5C65FBED17CC766C002A2E65 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5C65FBEF17CC768E002A2E65 /* AKSVideoAndImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AKSVideoAndImagePicker.h; path = AKSVideoAndImagePicker/AKSVideoAndImagePicker.h; sourceTree = "<group>"; };
+		5C65FBF017CC768E002A2E65 /* AKSVideoAndImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AKSVideoAndImagePicker.m; path = AKSVideoAndImagePicker/AKSVideoAndImagePicker.m; sourceTree = "<group>"; };
+		5C65FBF117CC768E002A2E65 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		5C65FBF217CC768E002A2E65 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C65FBCA17CC765D002A2E65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C65FBEE17CC766C002A2E65 /* AVFoundation.framework in Frameworks */,
+				5C65FBD117CC765D002A2E65 /* UIKit.framework in Frameworks */,
+				5C65FBD317CC765D002A2E65 /* Foundation.framework in Frameworks */,
+				5C65FBD517CC765D002A2E65 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C65FBC417CC765D002A2E65 = {
+			isa = PBXGroup;
+			children = (
+				5C65FBEF17CC768E002A2E65 /* AKSVideoAndImagePicker.h */,
+				5C65FBF017CC768E002A2E65 /* AKSVideoAndImagePicker.m */,
+				5C65FBD617CC765D002A2E65 /* AKSVideoAndImagePicker */,
+				5C65FBCF17CC765D002A2E65 /* Frameworks */,
+				5C65FBCE17CC765D002A2E65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C65FBCE17CC765D002A2E65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C65FBCD17CC765D002A2E65 /* AKSVideoAndImagePicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C65FBCF17CC765D002A2E65 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C65FBED17CC766C002A2E65 /* AVFoundation.framework */,
+				5C65FBD017CC765D002A2E65 /* UIKit.framework */,
+				5C65FBD217CC765D002A2E65 /* Foundation.framework */,
+				5C65FBD417CC765D002A2E65 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C65FBD617CC765D002A2E65 /* AKSVideoAndImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				5C65FBF117CC768E002A2E65 /* TestViewController.h */,
+				5C65FBF217CC768E002A2E65 /* TestViewController.m */,
+				5C65FBDF17CC765D002A2E65 /* AppDelegate.h */,
+				5C65FBE017CC765D002A2E65 /* AppDelegate.m */,
+				5C65FBD717CC765D002A2E65 /* Supporting Files */,
+			);
+			path = AKSVideoAndImagePicker;
+			sourceTree = "<group>";
+		};
+		5C65FBD717CC765D002A2E65 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C65FBD817CC765D002A2E65 /* AKSVideoAndImagePicker-Info.plist */,
+				5C65FBD917CC765D002A2E65 /* InfoPlist.strings */,
+				5C65FBDC17CC765D002A2E65 /* main.m */,
+				5C65FBDE17CC765D002A2E65 /* AKSVideoAndImagePicker-Prefix.pch */,
+				5C65FBE217CC765D002A2E65 /* Default.png */,
+				5C65FBE417CC765D002A2E65 /* Default@2x.png */,
+				5C65FBE617CC765D002A2E65 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C65FBCC17CC765D002A2E65 /* AKSVideoAndImagePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C65FBEA17CC765D002A2E65 /* Build configuration list for PBXNativeTarget "AKSVideoAndImagePicker" */;
+			buildPhases = (
+				5C65FBC917CC765D002A2E65 /* Sources */,
+				5C65FBCA17CC765D002A2E65 /* Frameworks */,
+				5C65FBCB17CC765D002A2E65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AKSVideoAndImagePicker;
+			productName = AKSVideoAndImagePicker;
+			productReference = 5C65FBCD17CC765D002A2E65 /* AKSVideoAndImagePicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C65FBC517CC765D002A2E65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Konstant Info Private Limited";
+			};
+			buildConfigurationList = 5C65FBC817CC765D002A2E65 /* Build configuration list for PBXProject "AKSVideoAndImagePicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5C65FBC417CC765D002A2E65;
+			productRefGroup = 5C65FBCE17CC765D002A2E65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C65FBCC17CC765D002A2E65 /* AKSVideoAndImagePicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C65FBCB17CC765D002A2E65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C65FBDB17CC765D002A2E65 /* InfoPlist.strings in Resources */,
+				5C65FBE317CC765D002A2E65 /* Default.png in Resources */,
+				5C65FBE517CC765D002A2E65 /* Default@2x.png in Resources */,
+				5C65FBE717CC765D002A2E65 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C65FBC917CC765D002A2E65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C65FBDD17CC765D002A2E65 /* main.m in Sources */,
+				5C65FBE117CC765D002A2E65 /* AppDelegate.m in Sources */,
+				5C65FBF317CC768E002A2E65 /* AKSVideoAndImagePicker.m in Sources */,
+				5C65FBF417CC768E002A2E65 /* TestViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5C65FBD917CC765D002A2E65 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C65FBDA17CC765D002A2E65 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C65FBE817CC765D002A2E65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5C65FBE917CC765D002A2E65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C65FBEB17CC765D002A2E65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AKSVideoAndImagePicker/AKSVideoAndImagePicker-Prefix.pch";
+				INFOPLIST_FILE = "AKSVideoAndImagePicker/AKSVideoAndImagePicker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5C65FBEC17CC765D002A2E65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AKSVideoAndImagePicker/AKSVideoAndImagePicker-Prefix.pch";
+				INFOPLIST_FILE = "AKSVideoAndImagePicker/AKSVideoAndImagePicker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C65FBC817CC765D002A2E65 /* Build configuration list for PBXProject "AKSVideoAndImagePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C65FBE817CC765D002A2E65 /* Debug */,
+				5C65FBE917CC765D002A2E65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C65FBEA17CC765D002A2E65 /* Build configuration list for PBXNativeTarget "AKSVideoAndImagePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C65FBEB17CC765D002A2E65 /* Debug */,
+				5C65FBEC17CC765D002A2E65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C65FBC517CC765D002A2E65 /* Project object */;
+}
